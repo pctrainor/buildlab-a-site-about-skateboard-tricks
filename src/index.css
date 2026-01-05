@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the Skateboard Tricks site */
+body {
+  @apply bg-[#0a0a0a] text-white;
+}
+
+header {
+  @apply p-4 shadow-lg bg-zinc-800;
+}
+
+h1 {
+  @apply text-3xl font-bold text-center;
+}
+
+/* Dark theme gradient background */
+.bg-gradient-to-b {
+  @apply from-zinc-900 via-slate-800 to-zinc-900;
+}
+
+/* Card styles */
+.card {
+  @apply bg-zinc-800 p-6 rounded-lg shadow-md;
+}
+
+.card-title {
+  @apply text-xl font-semibold mb-2;
+}
+
+.card-description {
+  @apply text-base text-gray-300;
+}
+
+.card-difficulty {
+  @apply text-sm text-slate-400;
+}
+
+/* Button styles */
+.btn {
+  @apply px-4 py-2 bg-blue-600 text-white rounded-md shadow-sm hover:bg-blue-500;
+}
+
+.btn-icon {
+  @apply inline-flex items-center;
+  margin-right: 0.5rem;
+}
